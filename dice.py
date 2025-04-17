@@ -1,6 +1,6 @@
 import random
-import player
 import board
+# import player
 
 def dice_roll(player):
     dice_1 = random.randint(1, 6)
@@ -10,9 +10,9 @@ def dice_roll(player):
     if dice_1 == dice_2:
         player.double_counter += 1
         print(f"You rolled a double {dice_1}!")
-        # Move the player the number of spaces rolled
-        # Carry out game logic for that space
-        # Return for next role
+        # TODO Move the player the number of spaces rolled
+        # TODO Carry out game logic for that space
+        
         # Check if the player has rolled 3 doubles in a row - if so, go to jail
         if player.double_counter == 3:
             print("You rolled 3 doubles in a row! Go to jail.")
