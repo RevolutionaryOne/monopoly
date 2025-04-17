@@ -26,7 +26,7 @@ def dice_roll(player):
         player.double_counter = 0 # Reset the double counter if previous roll increased it
         print(f"You rolled {dice_1} and {dice_2}")
         print(f"Move {total} spaces.") 
-        # Move the player the number of spaces rolled
+        # TODO Move the player the number of spaces rolled
 
 
     
