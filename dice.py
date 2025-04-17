@@ -15,7 +15,8 @@ def dice_roll(player: Player, double_counter: int):
         # Check if the player has rolled 3 doubles in a row - if so, go to jail
         if player.double_counter == 3:
             print("You rolled 3 doubles in a row! Go to jail.")
-            # Move player to jail
+            player.double_counter = 0 # Reset the double counter
+            player.go_to_jail() # Move player to jail
     else:
         player.double_counter = 0 # Reset the double counter if previous roll increased it
         print(dice_1, "and", dice_2)
