@@ -8,3 +8,4 @@ import board
 import player
 
 print("Welcome to Monopoly!")
+print("Please select your game options:")
