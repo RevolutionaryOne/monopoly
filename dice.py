@@ -24,8 +24,8 @@ def dice_roll(player):
             
     else:
         player.double_counter = 0 # Reset the double counter if previous roll increased it
-        print(dice_1, "and", dice_2)
-        print("Move", total, "spaces.") 
+        print(f"You rolled {dice_1} and {dice_2}")
+        print(f"Move {total} spaces.") 
         # Move the player the number of spaces rolled
 
 
