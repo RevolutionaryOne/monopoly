@@ -10,5 +10,8 @@ a player lands on free parking.'''
 # Print the main menu ASCII art
 ascii_art.monopoly_ascii()
 
+# Test player
+p1 = player.Player("Lee", "Car")
+
 # Test dice roll function
-dice.dice_roll()
+dice.dice_roll(p1)
