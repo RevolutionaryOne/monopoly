@@ -1,7 +1,7 @@
 # This function prints the ascii art for the monopoly game.
 def monopoly_ascii():
     print("\n")
-    print("\tWelcome to...")
+    print("Welcome to...")
     print("\n")
 
     print("\t\t /$$      /$$                                                   /$$          ")
@@ -17,5 +17,5 @@ def monopoly_ascii():
     print("\t\t                                           |__/                     \\______/ ")
 
     print("\n")
-    print("\tPlease select your game options:")
+    print("Please select your game options:")
     print("\n")
