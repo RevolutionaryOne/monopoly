@@ -6,6 +6,7 @@ a player lands on free parking.'''
 import random
 import board
 import player
+import ascii_art
 
-print("Welcome to Monopoly!")
-print("Please select your game options:")
+# Print the main menu ASCII art
+ascii_art.monopoly_ascii()
